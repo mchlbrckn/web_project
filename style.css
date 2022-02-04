@@ -1,0 +1,133 @@
+/* Comment */
+
+/* Import Roboto Slab typeface from Google Fonts */
+/* Light (300), Regular (400), Bold (700) */ 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+
+* {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Roboto Slab', serif; /* Convert all text to Roboto Slab */ 
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+
+/* ---- PAGE STYLES ---- */
+.home {
+    color: blue;
+    fill: blue;
+}
+
+.gallery {
+    color: red;
+}
+
+.contact {
+    color: green;
+}
+/* ---- PAGE STYLES ---- */
+
+
+/* ---- HEADER ---- */
+#header { /*  */
+    text-align: center;    
+}
+.title {
+    /* Title Color is determined by the page style */
+    width: 550px;
+    fill: blue;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.homelink {
+    color: blue;
+}
+.gallerylink {
+    color: red;
+}
+.contactlink {
+    color: green;
+}
+/* ---- HEADER ---- */
+
+
+/* ---- FOOTER ---- */
+.footer{
+    margin-top: 100px;
+    text-align: center;
+}
+/* ---- FOOTER ---- */
+
+
+/* ---- HEADINGS ---- */
+h1 { /* Biggest Heading */
+    font-size: 400px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 { /* Style for Heading2 */
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 { /* Style for Heading2 */
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+h4 { /* Style for Heading2 */
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+h5 { /* Used for headings of Paragraphs */
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+
+h6 { /* Same size as paragraphs but bolder */
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+/* ---- HEADINGS ---- */
+
+p, pre{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* ---- PHOTO GRID ---- */
+.photogrid {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photogrid::after {
+    content: "";
+    flex: auto;
+}
+/* ---- PHOTO GRID ---- */
+
+
+a { /* Edit all links */ 
+    text-decoration: none; /* Remove the underline on links */ 
+}
+
+input, textarea {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
